@@ -22,5 +22,6 @@ function rollDice() {
 
   } else{
     document.querySelector(".winner").innerHTML = "TIE";
+    document.getElementsByClassName("winPic")[0].setAttribute("src", "");
   }
 }
